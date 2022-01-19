@@ -1,0 +1,37 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body itemscope itemtype="http://schema.org/EmailMessage">
+
+  <div style=' margin-top:3em; padding:3em;'>
+    <div style="width:700px; margin:auto;">
+      <div style="height: 98px;">
+          <img src="http://image.ventasbit.com/image/email/e_title.png" />
+      </div>
+      <div style="border-left : 1px solid #c8c8c8; border-right: 1px solid #c8c8c8; padding-left:40px;">
+          <span style = "font-size: 13px;">
+            <font style="font-size: 18px; font-weight: 900;"><br/>로그인 알림</font> <br/>
+              안녕하세요. 벤타스비트입니다.<br/>
+              회원님의 아이디 {{email}}이(가) 로그인 되었습니다.<br/>
+              <br/>
+              아래의 로그인이 회원님의 활동이 맞는지 확인해주세요.<br/>
+              회원님의 활동이 아니라면, 아이디 도용의 위험이 있습니다.<br/>
+              <br/>
+              시간 {{inDt}}<br/>
+              위치 {{country}} ({{countryName}}) ({{ip}})<br/>
+              기기 {{device}} {{agent}}<br/>
+              <br/>
+              벤타스비트 <a href='https://www.ventasbit.com' target="_blank">바로가기</a>
+              <br/><br/>
+          </span>
+      </div>
+      <div>
+          <img src="http://image.ventasbit.com/image/email/e_footer.png" />
+      </div>
+    </div>   
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+    "private": {
+        "redis": {
+            "server1": {
+                "port": 6479,
+                "host": "test.ventasbit.com"
+            }
+        },
+        "mysql": {
+            "server1": {
+                "host": "ven30.ventasbit.com",
+                "user": "ventas",
+                "password": "Vent@s1!",
+                "database": "ventas"
+            }
+        },
+        "ppurio": {
+            "sender1": "18992959"
+        },
+        "nice": {
+            "code": "BE363",
+            "sec": "9KMnaL1Y92yX",
+            "exec": "java -cp /mnt/d/ventas/ventas-nice/grs.nice.jar grs.nice.NiceId",
+            "sucUrl": "http://localhost:3000/nice/suc",
+            "sucRegUrl": "http://localhost:3000/nice/suc-reg",
+            "sucFindIdUrl": "http://localhost:3000/nice/suc-findId",
+            "failUrl": "http://localhost:3000/nice/fail"
+        },
+        "email": {
+            "sender": "ventasbithelp@ventascorp.com",
+            "senderAlias": "VentasBit <ventasbithelp@ventascorp.com>",
+            "senderName": "VentasBit"
+        },
+        "COIN_QUEUE": {
+            "host": "ven02.ventasbit.com",
+            "port": 3100,
+            "privateKey": "Vent@sPriv@teKey12291!"
+        }
+    }
+}
